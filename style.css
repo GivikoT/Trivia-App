@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #652ebf;
+  color: #fff;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#game {
+  display: flex;
+}
+
+.genre-column {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.card {
+  width: 200px;
+  height: 120px;
+  border-radius: 20px;
+  background-color: #4545bf;
+  border: solid yellow 5px;
+  text-align: center;
+  padding: 5px;
+  margin: 10px;
+  font-size: 100px;
+}
+
+.correct-answer {
+  background-color: #ffd966;
+}
+
+.wrong-answer {
+  background-color: #fc2947;
+}
+
+button {
+  margin: 5px;
+}
+
+/* CSS */
+.true-button {
+  background-color: initial;
+  background-image: linear-gradient(-180deg, #00d775, #00bd68);
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter, -apple-system, system-ui, Roboto, "Helvetica Neue", Arial,
+    sans-serif;
+  line-height: 36px;
+  outline: 0;
+  overflow: hidden;
+  padding: 0 20px;
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: top;
+  white-space: nowrap;
+  /* width: 100%; */
+  z-index: 9;
+  border: 0;
+}
+
+.true-button:hover {
+  background: #00bd68;
+}
+
+.false-button {
+  background-color: initial;
+  background-image: linear-gradient(-180deg, #d84742, #ec0000);
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter, -apple-system, system-ui, Roboto, "Helvetica Neue", Arial,
+    sans-serif;
+  line-height: 36px;
+  outline: 0;
+  overflow: hidden;
+  padding: 0 20px;
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: top;
+  white-space: nowrap;
+  /* width: 100%; */
+  z-index: 9;
+  border: 0;
+}
+
+.false-button:hover {
+  background: #ec0000;
+}
